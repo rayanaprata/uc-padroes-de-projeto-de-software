@@ -14,7 +14,6 @@ public class Main {
 
 		carrinho.comprar(new CartaoDeCredito("Joao", "1234567890123456", "786", "12/21"));
 
-
 	}
 
 }
