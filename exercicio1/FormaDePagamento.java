@@ -1,6 +1,6 @@
 
 interface FormaDePagamento {
 	
-	void comprar(Object objeto);
+	void pagar(int valTotal);
 	
 }

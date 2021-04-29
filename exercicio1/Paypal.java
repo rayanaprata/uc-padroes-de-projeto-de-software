@@ -1,5 +1,5 @@
 
-public class Paypal {
+public class Paypal implements FormaDePagamento {
 	
 	String email;
 	String senha;
@@ -24,6 +24,11 @@ public class Paypal {
 
 	public void setSenha(String senha) {
 		this.senha = senha;
+	}
+
+	@Override
+	public void pagar(int valTotal) {
+		System.out.println("Valor Total = " + valTotal + " pago com Paypal.");			
 	}
 	
 }

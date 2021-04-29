@@ -1,5 +1,5 @@
 
-public class CartaoDeCredito {
+public class CartaoDeCredito implements FormaDePagamento {
 	
 	String nomeTitular;
 	String numCartao;
@@ -44,6 +44,11 @@ public class CartaoDeCredito {
 	
 	public void setDataVencimento(String dataVencimento) {
 		this.dataVencimento = dataVencimento;
+	}
+
+	@Override
+	public void pagar(int valTotal) {
+		System.out.println("Valor Total = " + valTotal + " pago com cartao de credito.");		
 	}
 
 }
