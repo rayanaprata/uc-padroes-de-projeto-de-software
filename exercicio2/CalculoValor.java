@@ -1,4 +1,4 @@
 
 interface CalculoValor {
-	long calcular(long horas, long dias);
+	void calcular(String entrada, String saida);
 }
