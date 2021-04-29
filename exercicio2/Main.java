@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		ContaEstacionamento contaEstacionamento;
-		Veiculo veiculo = new Veiculo("ABC-1234",Veiculo.PASSEIO);
+		Veiculo veiculo = new Veiculo("ABC-1234", TipoVeiculo.PASSEIO);
 	
 		contaEstacionamento = new 
 				ContaEstacionamento(veiculo, "08-03-2018 18:30:00", "08-03-2018 22:30:00");

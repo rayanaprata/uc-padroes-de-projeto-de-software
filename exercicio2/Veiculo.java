@@ -1,11 +1,20 @@
+enum TipoVeiculo {
+	PASSEIO,
+	MENSALISTAS,
+	CAMINHOES
+}
 
 public class Veiculo {
 	
 	String placa;
-	String tipo;
+	TipoVeiculo tipo;
 	
-	
-	
+	public Veiculo(String placa, TipoVeiculo tipo) {
+		super();
+		this.placa = placa;
+		this.tipo = tipo;
+	}
+
 	public String getPlaca() {
 		return placa;
 	}
@@ -14,15 +23,12 @@ public class Veiculo {
 		this.placa = placa;
 	}
 	
-	public String getTipo() {
+	public TipoVeiculo getTipo() {
 		return tipo;
 	}
 	
-	public void setTipo(String tipo) {
+	public void setTipo(TipoVeiculo tipo) {
 		this.tipo = tipo;
 	}
-	
-	
-
 	
 }
