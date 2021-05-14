@@ -1,5 +1,5 @@
 package facade1;
-
+/*
 public class MainAntes {
 	public static void main(String[] args) {
 
@@ -29,3 +29,4 @@ public class MainAntes {
 
 
 }
+*/

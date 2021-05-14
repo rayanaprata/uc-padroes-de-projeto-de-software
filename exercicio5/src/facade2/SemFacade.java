@@ -1,5 +1,6 @@
 package facade2;
 
+/*
 public class SemFacade {
 	public static void main(String[] args) {
 		Forma circulo;
@@ -20,3 +21,4 @@ public class SemFacade {
 	}
 }
 
+*/
