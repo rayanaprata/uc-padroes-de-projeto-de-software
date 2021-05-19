@@ -1,12 +1,9 @@
 
 public class FacadeStringCompression {
 	
-	
-
 	public void print(String str1) {		
 		System.out.println("Original string: " + str1);
 		System.out.println("Length = " + str1.length());
-		
 	}
 	
 	public String compress(String str1) {
@@ -35,7 +32,7 @@ public class FacadeStringCompression {
 			System.out.println("Compression Algorithm: SimpleMethod");
 			System.out.println("Decompression Algorithm: SimpleMethod");
 		}
-		//Verificar impressao
+
 		System.out.println(str);
 		System.out.println(decompress);
 		

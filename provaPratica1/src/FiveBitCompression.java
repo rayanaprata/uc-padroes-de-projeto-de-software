@@ -3,17 +3,21 @@ import java.util.Base64;
 public class FiveBitCompression implements CompressionAlgorithm{
 	
 	public String compress(String txt){
+		
+		String temp;
+		String strBinary = new String("");
 		int bit = 5;
 		int length = txt.length();
 		float tmpRet1=0,tmpRet2=0;
 		tmpRet1=5.0f;
 		tmpRet2=8.0f;
+		
 		byte encoded[]=new byte[(int)(tmpRet1*Math.ceil(length/tmpRet2))];
+		
 		char str[]=new char[length];
 		txt.getChars(0,length,str,0);
 		int chaVal = 0;
-		String temp;
-		String strBinary = new String("");
+		
 		for (int i = 0;i<length; i++){
 			int tovalue = 0;
 			switch(str[i]){
