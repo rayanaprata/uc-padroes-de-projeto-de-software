@@ -9,15 +9,15 @@ public class Robot {
 	}
 
 	public void walk() {
-		this.roboticState = new BugAberto();
+		this.roboticState = new RobotWalk();
 	}
 
 	public void cook() {
-		this.roboticState = new BugFechado();
+		this.roboticState = new RobotCook();
 	}
 
 	public void off() {
-		this.roboticState = new BugVerificando();
+		this.roboticState = new RobotOff();
 	}
 	
 }
